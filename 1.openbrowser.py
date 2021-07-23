@@ -9,5 +9,4 @@ print(driver.title)#Tittle of the page
 print(driver.current_url)#To return current url
 #print(driver.get_screenshot_as_base64())
 #print(driver.page_source)
-print("This is my firs push commit in git hub")
 driver.close()
