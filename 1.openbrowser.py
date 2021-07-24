@@ -8,5 +8,5 @@ driver.get("http://www.newtours.demoaut.com/")
 print(driver.title)#Tittle of the page
 print(driver.current_url)#To return current url
 #print(driver.get_screenshot_as_base64())
-#print(driver.page_source)
+print(driver.page_source)
 driver.close()
